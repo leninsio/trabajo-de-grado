@@ -1,0 +1,14 @@
+# Gemini Rules - Proyecto de Grado CUAM
+
+This workspace uses strict academic and formatting guidelines defined by the CUAM and UPEL manuals.
+
+Before proposing any changes to the thesis document (`TRABAJO_LENIN_ALVARADO.docx`), validation kits (`Instrumento_y_Validacion_Expertos.docx`), or questionnaires (`Cuestionario_Empleados.docx`), you MUST read and comply with the guidelines defined in the central configuration file:
+
+👉 [.agents/AGENTS.md](file://./.agents/AGENTS.md)
+
+## Key Constraints:
+- **Research Type**: Proyecto Factible (do NOT use experimental or explanatory terminology).
+- **Format**: Times New Roman 12pt, 1.5 line spacing, 0.5" first-line indent, left margin 4cm, other margins 3cm.
+- **Citations**: APA style (block quote formatting for >40 words).
+- **Instrument Alignment**: The printable questionnaire sheet (`Cuestionario_Empleados.docx`) must match the thesis `Anexo A` 100% exactly (same header, cover letter, and questions).
+- **Anonymity**: Socio-demographic data in questionnaire MUST be marked as `(Opcional)` with write-in lines.
