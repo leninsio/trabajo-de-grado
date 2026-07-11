@@ -1,0 +1,42 @@
+
+República Bolivariana de Venezuela Colegio Universitario de Administración y Mercadeo CUAM Extensión: Caracas
+
+CUESTIONARIO DE RECOLECCIÓN DE DATOS (EMPLEADOS)
+Instrucciones: Estimado empleado, a continuación se presenta una serie de preguntas cerradas orientadas a recolectar información sobre los procesos actuales de inventario y control de préstamos prendarios. Le solicitamos que responda con la mayor objetividad posible marcando con una equis (X) en la opción que considere pertinente (SÍ o NO). Sus respuestas serán confidenciales y utilizadas exclusivamente para el desarrollo del proyecto de grado de TSU en Informática.
+DATOS DEL TRABAJADOR (Opcional): Lugar de Trabajo: Inversiones Más por tu Oro 17 C.A. Cargo que desempeña: ___________________________________ Años de experiencia en el área: ___________________________
+N°
+Enunciado / Pregunta
+SÍ
+NO
+1
+¿Considera usted que el registro y control manual de los préstamos prendarios genera retrasos en la atención al cliente?
+[   ]
+[   ]
+2
+¿Se presentan dificultades para verificar la disponibilidad de los artículos en el inventario al momento de realizar un préstamo?
+[   ]
+[   ]
+3
+¿Ocurren pérdidas de información o errores en los cálculos de los intereses debido al registro manual?
+[   ]
+[   ]
+4
+¿Cree usted necesario implementar un sistema de información para automatizar la gestión de inventario y préstamos?
+[   ]
+[   ]
+5
+¿El sistema propuesto debería generar reportes automáticos de los artículos en custodia y los préstamos vencidos?
+[   ]
+[   ]
+6
+¿Considera importante que el sistema permita realizar consultas rápidas sobre el estado de un préstamo por cliente?
+[   ]
+[   ]
+7
+¿Estaría dispuesto a recibir capacitación para el uso del nuevo sistema de información en la empresa?
+[   ]
+[   ]
+8
+¿Cree que la automatización de los procesos mejorará la eficiencia administrativa de la organización?
+[   ]
+[   ]

@@ -1,0 +1,190 @@
+
+República Bolivariana de Venezuela Colegio Universitario de Administración y Mercadeo CUAM Extensión: Caracas
+Caracas, Mayo de 2026
+Ciudadano(a): Expert Validador(a) Presente.-
+En virtud de llevar a cabo la presente investigación sobre SISTEMA DE INFORMACIÓN PARA LA GESTIÓN DE INVENTARIO Y CONTROL DE PRÉSTAMOS PRENDARIOS EN LA EMPRESA INVERSIONES MÁS POR TU ORO 17 C.A., requisito para optar al título de Técnico Superior Universitario en la especialidad de Informática, nos dirigimos a usted en la oportunidad de solicitarle su valiosa colaboración para la validación del instrumento de recolección de datos.  Los criterios a evaluar son: claridad, precisión, pertinencia y coherencia en la redacción de cada uno de los ocho (8) ítems que conforman el cuestionario.  Agradeciendo de antemano su colaboración, queda de usted.
+Atentamente,   __________________________________ Br. Lenin Alvarado C.I. N° 30.260.365
+
+
+República Bolivariana de Venezuela Colegio Universitario de Administración y Mercadeo CUAM Extensión: Caracas
+FICHA TÉCNICA DEL VALIDADOR
+A través de la presente herramienta se proyecta validar el instrumento que se utilizará para el trabajo de investigación que lleva por título SISTEMA DE INFORMACIÓN PARA LA GESTIÓN DE INVENTARIO Y CONTROL DE PRÉSTAMOS PRENDARIOS EN LA EMPRESA INVERSIONES MÁS POR TU ORO 17 C.A., requisito para optar al título de Técnico Superior Universitario Mención Informática.
+DATOS DEL EXPERTO:
+NOMBRE DEL EXPERTO: ____________________________________________________________________
+TÍTULO OBTENIDO: ____________________________________________________________________
+MENCIÓN: ____________________________________________________________________
+AÑO DE EGRESO: ______________ EGRESADO DE LA UNIVERSIDAD: _________________________
+LUGAR DE TRABAJO: ____________________________________________________________________
+CARGO QUE DESEMPEÑA: ____________________________________________________________________
+
+CUADRO DE OPERACIONALIZACIÓN DE VARIABLES
+Objetivos Específicos
+Variables
+Definición Conceptual
+Definición Operacional
+Dimensión
+Indicadores
+Ítems
+Escala
+Diagnosticar el flujo actual de los datos registrados en hojas de Excel.
+Gestión Manual de Datos
+Proceso actual de registro basado en herramientas ofimáticas descentralizadas.
+Análisis de la fragmentación de archivos Excel en la empresa.
+Operativa
+Registro manual, Tiempo de respuesta.
+1, 2
+Sí / No
+Determinar los requerimientos funcionales para la automatización.
+Requerimientos Técnicos
+Necesidades del software para ejecutar cálculos de empeño y compras.
+Especificación de módulos para el sistema de préstamos y caja.
+Técnica
+Algoritmos de cálculo, Seguridad.
+3, 4
+Sí / No
+Diseñar la arquitectura de base de datos e interfaces.
+Diseño del Sistema
+Estructura lógica y visual para centralizar la información de metales.
+Modelado del esquema de datos y prototipos de interfaz web.
+Informática
+Esquema de BD, Prototipo visual.
+5, 6
+Sí / No
+Desarrollar módulos de registro y reportes automatizados.
+Implementación de Software
+Construcción de la herramienta final para la optimización administrativa.
+Desarrollo de la aplicación en Vercel y el sistema de empeños.
+Administrativa
+Reportes generados, Consultas exitosas.
+7, 8
+Sí / No
+Fuente: Alvarado, L. (2026).
+
+
+República Bolivariana de Venezuela Colegio Universitario de Administración y Mercadeo CUAM Extensión: Caracas
+CUESTIONARIO PARA RECOLECCIÓN DE DATOS
+A continuación se presenta el instrumento estructurado con preguntas de tipo dicotómico (Sí / No) que será aplicado a los colaboradores del entorno operativo y administrativo de la empresa.
+No.
+Indicador
+Pregunta
+Sí
+No
+1
+Registro manual
+¿Considera que el estado actual de los archivos de Excel permite la integración y cruce eficiente de los datos de la empresa?
+
+
+2
+Tiempo respuesta
+¿El tiempo de respuesta manual afecta la productividad?
+
+
+3
+Algoritmos cálculo
+¿Se han registrado discrepancias o inconsistencias en los cálculos de intereses y fechas de vencimiento bajo la modalidad manual?
+
+
+4
+Seguridad
+¿Dispone la empresa de mecanismos automatizados de respaldo para proteger la información frente a fallos del sistema o sobreescrituras?
+
+
+5
+Esquema de BD
+¿Es fundamental un sistema centralizado para la trazabilidad?
+
+
+6
+Prototipo visual
+¿Deben las interfaces ser intuitivas para facilitar el uso?
+
+
+7
+Reportes generados
+¿Requiere reportes administrativos automáticos para gerencia?
+
+
+8
+Consultas exitosas
+¿Es la automatización de consultas esencial para el flujo de trabajo?
+
+
+
+
+República Bolivariana de Venezuela Colegio Universitario de Administración y Mercadeo CUAM Extensión: Caracas
+MATRIZ DE VALIDACIÓN DEL INSTRUMENTO
+Instrucciones: Por favor evalúe cada ítem de acuerdo con la escala indicada marcando la letra que considere: CRITERIOS: 1) Claridad  2) Precisión  3) Pertinencia  4) Coherencia ESCALA DE VALORACIÓN:  A) Excelente   B) Bueno   C) Regular   D) Deficiente
+Ítems
+CLARIDAD (A,B,C,D)
+PRECISIÓN (A,B,C,D)
+PERTINENCIA (A,B,C,D)
+COHERENCIA (A,B,C,D)
+OBSERVACIONES
+1
+
+
+
+
+
+2
+
+
+
+
+
+3
+
+
+
+
+
+4
+
+
+
+
+
+5
+
+
+
+
+
+6
+
+
+
+
+
+7
+
+
+
+
+
+8
+
+
+
+
+
+Decisión General sobre los ítems del Instrumento:
+Ítems
+Dejar
+Modificar
+Eliminar
+Observaciones del Validador
+1 a 8
+
+
+
+
+Firma del Validador: ______________________________ Sello (Opcional):
+
+
+República Bolivariana de Venezuela Colegio Universitario de Administración y Mercadeo CUAM Extensión: Caracas
+CERTIFICADO DE VALIDEZ DE CONTENIDO
+Quien suscribe, ___________________________________________________, titular de la Cédula de Identidad N° V-_________________, de profesión _________________________________, hago constar que he revisado y evaluado técnicamente el instrumento de recolección de datos diseñado por el bachiller Lenin Alvarado, C.I. 30.260.365, para su Trabajo de Grado titulado: "SISTEMA DE INFORMACIÓN PARA LA GESTIÓN DE INVENTARIO Y CONTROL DE PRÉSTAMOS PRENDARIOS EN LA EMPRESA INVERSIONES MÁS POR TU ORO 17 C.A.", requisito parcial para optar al título de Técnico Superior Universitario Mención Informática.  A los efectos de la validación, procedí a evaluar cuantitativa y cualitativamente cada ítem con base en los criterios de Claridad, Precisión, Pertinencia y Coherencia, considerando que dicho instrumento reúne las condiciones metodológicas necesarias, por lo cual se declara en esta constancia de juicio de expertos que es:  
+  [   ]  VÁLIDO          [   ]  VÁLIDO CON OBSERVACIONES          [   ]  NO VÁLIDO  
+Constancia que se expide en Caracas, a los _____ días del mes de ____________ de 2026.
+________________________________________ Firma del Experto Validador C.I. N° V-______________________

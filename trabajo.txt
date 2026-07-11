@@ -1,0 +1,664 @@
+República Bolivariana de Venezuela
+Colegio Universitario de Administración y Mercadeo
+                         CUAM
+                    Extensión: Caracas
+
+
+
+
+
+SISTEMA DE INFORMACIÓN PARA LA GESTIÓN DE INVENTARIO Y CONTROL DE PRÉSTAMOS PRENDARIOS EN LA EMPRESA INVERSIONES MÁS POR TU ORO 17 C.A
+“Trabajo de Grado presentado como requisito parcial para optar al título de Técnico Superior Universitario Mención Informática".
+
+
+
+
+
+ Autor: Lenin Alvarado 
+C.I: 30260365
+Tutor: Msc LUIS GIRON
+Caracas, Mayo  2026
+República Bolivariana de Venezuela
+Colegio Universitario de Administración y Mercadeo
+CUAM
+
+APROBACIÓN DEL TUTOR
+
+
+Bajo mi responsabilidad como Tutor del Trabajo de Grado desarrollado por el bachiller Lenin Alvarado, para la obtención del Título de Técnico Superior Universitario en la especialidad de Informática, certifico que la presente investigación cumple con las exigencias y méritos académicos necesarios para proceder a su exposición pública y posterior calificación por el jurado evaluador asignado.
+Caracas, a los _____ días del mes de ____________ de 2026.
+___________________________
+Prof. Msc LUIS GIRON
+C.I. V-____________
+
+
+
+
+
+
+
+DEDICATORIA
+     Dedico este logro académico primordialmente al Creador, por representar la iluminación y orientación constante en cada fase de mi formación. A mis progenitores y familiares, cuyo respaldo moral e incondicional, templanza y fe inquebrantable en mis propósitos profesionales han sido el pilar fundamental para alcanzar el éxito en esta etapa universitaria.
+Lenin Alvarado
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AGRADECIMIENTOS
+       Manifiesto mi gratitud más profunda hacia el Colegio Universitario de Administración y Mercadeo (CUAM), Extensión Caracas, por haberme brindado el acceso a una educación técnica de calidad, esencial para mi futuro laboral. Al docente Msc LUIS GIRON, cuya dedicación, observaciones críticas y guía metodológica fueron determinantes para la culminación de este trabajo. De igual forma, extiendo un reconocimiento especial a la organización Inversiones Más Por Tu Oro 17 C.A., por permitir el ingreso a su entorno operativo y suministrar los datos técnicos requeridos para la construcción y fundamentación del presente sistema de información.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ÍNDICE GENERAL
+                                                                     pp.
+LISTA DE CUADROS ...................................................   v
+LISTA DE GRÁFICOS ..................................................   vi
+RESUMEN ............................................................   vii
+INTRODUCCIÓN .......................................................    1
+CAPÍTULO
+I.  EL PROBLEMA
+    Planteamiento del Problema .....................................   3
+    Interrogantes de la Investigación ..............................   4
+    Objetivos de la Investigación ..................................   4
+    Objetivo General ...............................................   4
+    Objetivos Específicos ..........................................   4
+    Justificación de la Investigación ..............................   5
+II. MARCO TEÓRICO
+    Antecedentes de la Investigación ...............................   6
+    Bases Teóricas .................................................   7
+    Bases Legales ..................................................   8
+    Cuadro de Operacionalización de Variables ......................   9
+    Sistema de Variables ...........................................   10
+    Definición de Términos Básicos .................................   10
+III. MARCO METODOLÓGICO
+    Tipo y Diseño de la Investigación ..............................   11
+    Población y Muestra ............................................   12
+    Técnicas de Recolección de Datos ...............................   12
+    Instrumentos de Recolección de Datos ...........................   13
+    Validez de los Instrumentos y Confiabilidad ....................   13
+    Técnica de Análisis de Datos ...................................   14
+IV. ANÁLISIS E INTERPRETACIÓN DE LOS RESULTADOS ...................   xx
+    Tabulación, Graficación y Análisis de los Resultados ...........   xx
+V.  CONCLUSIONES Y RECOMENDACIONES
+    Conclusiones ...................................................   xx
+    Recomendaciones ................................................   xx
+VI. LA PROPUESTA
+    Presentación y Justificación ...................................   xx
+    Objetivos de la Propuesta ......................................   xx
+    Fundamentación y Factibilidad ..................................   xx
+    Estructura y Desarrollo del Sistema ............................   xx
+REFERENCIAS ........................................................   xx
+ANEXOS .............................................................   15
+A. Instrumento de Recolección de los Datos (Cuestionario) ..........   16
+B. Matriz de Validación de Expertos ................................   17
+C. Tabulación de Datos y Cálculo de Confiabilidad KR-20 ............   xx
+
+República Bolivariana de Venezuela
+Colegio Universitario de Administración y Mercadeo
+CUAM Extensión Caracas
+Línea Integradora: Sociedad, Educación, Gerencia, Bioética, Innovación Tecnológica y Gestión del Talento Humano.
+Área Estratégica: Ingeniería de Software.
+Mención: Informática.
+SISTEMA DE INFORMACIÓN PARA LA GESTIÓN DE INVENTARIO Y CONTROL DE PRÉSTAMOS PRENDARIOS EN LA EMPRESA INVERSIONES MÁS POR TU ORO 17 C.A.
+Autor: Lenin Alvarado
+Tutor: Msc LUIS GIRON
+RESUMEN
+ El propósito fundamental de esta investigación consistió en el desarrollo de una herramienta tecnológica orientada a la administración de existencias y supervisión de créditos sobre prendas en la entidad Inversiones Más Por Tu Oro 17 C.A., con el fin de subsanar las vulnerabilidades operacionales ocasionadas por el manejo fragmentado en archivos digitales rudimentarios. Metodológicamente, el estudio se rigió por un enfoque Descriptivo y Explicativo, bajo un esquema de Campo y la modalidad de Proyecto Factible. La unidad de análisis estuvo integrada por tres (3) colaboradores de las áreas administrativas y operativas, aplicándose un censo poblacional debido a la magnitud finita del grupo. Para el acopio de información, se recurrió a la Observación Directa y la técnica de Encuesta, apoyadas en una guía observacional y un instrumento de recolección de datos tipo cuestionario con reactivos cerrados. La validación del mismo se efectuó mediante el arbitraje de tres (3) expertos (uno en metodología, uno en informática y uno en el área de Administración/Gerencia), mientras que la consistencia interna se verificó a través del coeficiente Kuder-Richardson (KR-20), garantizando la fiabilidad para el modelado del software. El tratamiento de los hallazgos combinó el análisis cuantitativo por medio de estadística descriptiva con la interpretación lógica de los flujos de trabajo. Se concluye que el sistema propuesto centraliza el entorno operativo, agiliza los algoritmos de cálculo, optimiza la eficiencia administrativa y garantiza la protección de los activos de información ante posibles contingencias técnicas.
+Descriptores: Sistema de Información, Inventario, Préstamos Prendarios, Metales Preciosos.
+
+
+INTRODUCCIÓN
+Dentro del entorno organizacional actual, la modernización de los flujos de trabajo y el tratamiento eficiente de los datos se erigen como pilares fundamentales para preservar la competitividad y solidez institucional. La transición de esquemas operativos manuales o herramientas de oficina convencionales hacia arquitecturas tecnológicas centralizadas obedece a la apremiante necesidad de optimizar el rendimiento corporativo y blindar la integridad de la información sensible. En sectores orientados a la fiscalización financiera y la custodia de activos, este avance técnico cobra una importancia estratégica debido a la naturaleza valiosa de los bienes bajo administración.
+La operatividad basada en el resguardo de existencias y la auditoría de instrumentos de crédito prendario representa la columna vertebral de las entidades de empeño. El manejo fragmentado de estos registros mediante archivos digitales independientes expone a las organizaciones a vulnerabilidades críticas, tales como la dilación en los tiempos de respuesta, la imposibilidad de consolidar datos para la toma de decisiones y la susceptibilidad ante fallos de integridad por sobreescritura. Bajo este escenario, el desarrollo de software especializado provee las bases lógicas para implementar herramientas que centralicen las operaciones, asegurando la trazabilidad absoluta de las transacciones y la protección de los activos informáticos.
+El presente estudio se orienta a proponer una solución tecnológica que subsane las deficiencias detectadas en la empresa Inversiones Más Por Tu Oro 17 C.A., en Caracas, donde la administración de adquisiciones de metales preciosos y la supervisión de empeños se rigen por metodologías rudimentarias. Desde la praxis, el proyecto se fundamenta en la centralización operativa para incrementar la eficiencia administrativa; en lo académico, constituye un ejercicio de aplicación técnica para
+solventar problemas organizacionales reales, y en lo metodológico, establece un modelo sistémico replicable para instituciones con necesidades similares de control y seguridad financiera.
+Con el fin de estructurar de forma coherente la fundamentación y factibilidad del sistema, este Trabajo de Grado se articula a través de las siguientes secciones capitulares:
+          Capítulo I: El Problema, sección que aborda el diagnóstico situacional de la entidad, los cuestionamientos de la investigación, el objetivo general y las metas específicas para la automatización, junto con la justificación técnica que sustenta la viabilidad del estudio.
+Capítulo II: Corresponde al Marco Teórico, donde se recopilan los antecedentes referenciales, los conceptos de ingeniería informática y gestión de inventario, el marco legal venezolano y el esquema de operacionalización de las variables involucradas.
+Capítulo III: Define el Marco Metodológico, describiendo los enfoques descriptivos y de campo aplicados, la determinación de la muestra censal, los instrumentos de recolección, la validación técnica y los procedimientos de análisis estadístico utilizados.
+Capítulo IV: Análisis e Interpretación de Resultados, apartado dedicado a la exposición detallada de los hallazgos mediante tabulaciones y gráficos, contrastando la realidad técnica de la empresa con los postulados teóricos del área.
+Capítulo V: Contiene las Conclusiones y Recomendaciones, sintetizando los objetivos logrados y planteando las directrices necesarias para potenciar la eficiencia administrativa y la protección de datos en la organización.
+
+Capítulo VI: La Propuesta, fase culminante donde se describe la arquitectura del software, detallando los requisitos, el diseño de la base de datos, los prototipos de interfaz y el estudio de factibilidad económica y operativa. Finalmente, se presentan las fuentes consultadas y los soportes de validación del proyecto.
+
+CAPÍTULO I
+EL PROBLEMA
+Planteamiento del Problema
+En la actualidad, las organizaciones a nivel global buscan optimizar sus procesos mediante la implementación de herramientas informáticas avanzadas. El objetivo principal de este avance tecnológico es reducir significativamente la brecha existente entre el estado manual de las operaciones y el estado deseado de eficiencia corporativa. La automatización no solo agiliza las tareas cotidianas, sino que también permite a las empresas mantenerse competitivas en un mercado cada vez más exigente. En este contexto, la adopción de sistemas de información robustos se ha convertido en una necesidad imperante para aquellas entidades que desean garantizar la integridad de sus datos y la rapidez en la prestación de sus servicios fundamentales.
+Específicamente, en la empresa Inversiones Más Por Tu Oro 17 C.A., se ha detectado una situación crítica en la gestión de sus operaciones principales. Actualmente, tanto el control de los préstamos prendarios o empeños como la compra de metales preciosos, tales como oro y plata, se llevan a cabo mediante el uso múltiple de hojas de cálculo de Microsoft Excel. Esta metodología rudimentaria genera una problemática micro caracterizada por una profunda desorganización de los datos. Al existir diversos archivos independientes, la información se encuentra fragmentada, lo que imposibilita un cruce de datos efectivo y confiable para la toma de decisiones administrativas en tiempo real.
+Esta dependencia de procesos manuales y archivos digitales descentralizados conlleva riesgos operativos considerables para la organización. La lentitud en el registro de cada préstamo y compra consume un tiempo excesivo, afectando de manera directa la calidad de la atención al cliente y la productividad del personal. Asimismo, existe un alto riesgo de pérdida de información sensible, ya que los archivos de Excel son vulnerables a errores de sobreescritura o fallos críticos del sistema sin respaldo automatizado. Por lo tanto, surge la imperiosa necesidad de modernizar la gestión operativa mediante el desarrollo de una herramienta tecnológica que permita automatizar los procesos y centralizar la base de datos.
+Interrogantes de la Investigación
+¿Cuál es la situación actual del flujo de datos y las fallas presentes en el control de préstamos registrados en hojas de cálculo en la empresa? 
+¿Qué requerimientos funcionales debe poseer el nuevo sistema para lograr una automatización eficiente de los cálculos de empeño? 
+¿Cómo debe estructurarse la base de datos y las interfaces de usuario para garantizar la centralización de la información de oro y plata? 
+¿De qué manera el desarrollo de módulos de registro y reportes automatizados contribuirá a la optimización del tiempo administrativo en la empresa? 
+ Objetivos de Investigación
+Objetivo General
+Desarrollar un Sistema de Información para la Gestión de Inventario y Control de Préstamos Prendarios en la empresa Inversiones Más Por Tu Oro 17 C.A..
+Objetivos Específicos
+ Diagnosticar el flujo actual de los datos registrados en hojas de Excel para identificar las fallas críticas en el control de préstamos y compras de metales.
+Determinar los requerimientos funcionales y técnicos del sistema que permitan la automatización precisa de los cálculos de empeño y transacciones.
+Diseñar la arquitectura de la base de datos y las interfaces gráficas de usuario para centralizar la información operativa de la empresa.
+Desarrollar los módulos de registro, consulta y generación de reportes automatizados para optimizar el rendimiento administrativo y la seguridad de los datos.
+ Justificación de la Investigación
+Desde una perspectiva práctica, esta investigación se justifica plenamente al permitir que la empresa abandone el uso ineficiente de múltiples archivos de Excel, logrando una gestión centralizada y rápida de sus operaciones diarias. En el ámbito teórico, el proyecto constituye una oportunidad para aplicar conocimientos informáticos avanzados en la resolución de problemas reales relacionados con el control financiero y la gestión de inventarios. Finalmente, en lo metodológico, el sistema propuesto proporciona un modelo de automatización que puede ser replicado por otras casas de empeño que enfrentan problemáticas similares de gestión manual y fragmentación de datos. La presente investigación se fundamenta en la necesidad técnica de sustituir procesos manuales por una solución automatizada que elimine la fragmentación de la información. Su importancia radica en la optimización de los tiempos de atención al cliente y la mitigación de riesgos de pérdida de datos, ofreciendo una estructura digital segura y eficiente que garantiza la integridad financiera de la empresa Inversiones Más Por Tu Oro 17 C.A.
+
+
+
+
+
+
+
+
+
+
+ CAPÍTULO II
+ MARCO TEÓRICO
+Antecedentes de la Investigación
+Antecedente 1
+Autor y Año: Martínez, A. (2025)
+Título de la Investigación: Propuesta de un Sistema de Gestión de Inventario para Optimizar el Flujo de Metales Preciosos en Casas de Empeño.
+Aporte a la Investigación: Ofrece una metodología de levantamiento de requerimientos y un diseño de modelo entidad-relación ideal para la centralización del inventario de oro y plata.
+Antecedente 2
+Autor y Año: Colina, J. (2024)
+Título de la Investigación: Análisis y Desarrollo de Módulos de Cálculo para la Auditoría de Créditos Prendarios y Mitigación de Riesgos Financieros.
+Aporte a la Investigación: Proporciona la base conceptual para el diseño de algoritmos de cálculo de intereses y la implementación de protocolos de seguridad en transacciones de empeño.
+Antecedente 3
+Autor y Año: Naranjo, E. (2023)
+Título de la Investigación: Impacto de la Migración de Datos de Hojas de Cálculo a un Ambiente Web Centralizado en la Productividad Administrativa.
+Aporte a la Investigación: Justifica la necesidad de reemplazar el manejo fragmentado de datos en Excel, ofreciendo un marco teórico para la optimización del tiempo de respuesta y la eficiencia administrativa.
+Bases Teóricas
+Las bases teóricas de este proyecto se fundamentan en la ingeniería de software y la gestión financiera de bienes muebles, elementos clave para el control de inventario y préstamos. Un Sistema de Información se define como un conjunto de elementos orientados al tratamiento y administración de datos, organizados para generar resultados que apoyen la toma de decisiones (Kendall y Kendall, 2011). En este contexto, la gestión de inventarios para metales preciosos como el oro y la plata requiere una precisión técnica elevada debido a la volatilidad de sus precios y su valor intrínseco. Asimismo, el concepto de préstamo prendario implica una relación contractual donde la tecnología actúa como garante de la transparencia en el resguardo de la prenda y el cálculo de los montos adeudados. Esta estructura teórica garantiza que el software no sea solo una herramienta de registro, sino un activo estratégico para la optimización administrativa de la organización.
+Bases Legales
+El sustento jurídico de esta investigación se enmarca en las leyes venezolanas que regulan el uso de tecnologías y la actividad comercial de préstamo y custodia de bienes. La Constitución de la República Bolivariana de Venezuela, en su artículo 110, establece el compromiso del Estado con el desarrollo científico y tecnológico como motor del progreso nacional. Por otra parte, la Ley Especial Contra los Delitos Informáticos protege la integridad de los datos que serán almacenados en el sistema, asegurando que la información de los clientes y las transacciones esté legalmente blindada. El Código de Comercio también juega un papel fundamental, ya que obliga a las empresas a llevar un registro contable fidedigno y organizado, requisito que el sistema propuesto cumple a cabalidad. Finalmente, las normativas vigentes sobre la comercialización de metales preciosos dictan los parámetros de seguridad que deben seguirse en el inventario de oro y plata. El cumplimiento de este marco legal otorga validez institucional al proyecto y asegura que la automatización respete los derechos tanto de la empresa como de sus usuarios.
+Cuadro de Operacionalización de Variables
+A continuación se presenta la estructura detallada de las variables, siguiendo fielmente el modelo técnico requerido para la validación del sistema de información.
+Matriz de Operacionalización de Variables.
+
+Objetivos Específicos
+Variables
+Definición Conceptual
+Definición Operacional
+Dimensión
+Indicadores
+Diseño y Tipo de Investigación
+Ítems
+Diagnosticar el flujo actual de los datos en hojas de Excel.
+Gestión Manual de Datos
+Proceso actual de registro basado en herramientas ofimáticas descentralizadas.
+Análisis de la fragmentación de archivos Excel en la empresa.
+Operativa
+Registro manual, Tiempo de respuesta.
+Descriptiva, Explicativa y de Campo.
+1, 2
+Determinar requerimientos funcionales para la automatización.
+Requerimientos Técnicos
+Necesidades del software para ejecutar cálculos de empeño y compras.
+Especificación de módulos para el sistema de préstamos y caja.
+Técnica
+Algoritmos de cálculo, Seguridad.
+Descriptiva, Explicativa y de Campo.
+3, 4
+Diseñar la arquitectura de base de datos e interfaces.
+Diseño del Sistema
+Estructura lógica y visual para centralizar la información de metales.
+Modelado del esquema de datos y prototipos de interfaz web.
+Informática
+Esquema de BD, Prototipo visual.
+Descriptiva, Explicativa y de Campo.
+5, 6
+Desarrollar módulos de registro y reportes automatizados.
+Implementación de Software
+Construcción de la herramienta final para la optimización administrativa.
+Desarrollo de la aplicación en Vercel y el sistema de empeños.
+Administrativa
+Reportes generados, Consultas exitosas.
+Descriptiva, Explicativa y de Campo.
+7, 8
+Fuente: Alvarado, L. (2026).
+Sistema de Variables
+Para la correcta interpretación de los resultados, se definen los descriptores clave que conforman el título de la investigación:
+Sistema de Información: Plataforma tecnológica para el procesamiento de datos operativos.
+Gestión de Inventario: Control sistemático de las existencias de oro y plata.
+Control de Préstamos Prendarios: Supervisión de contratos y garantías en el sistema de empeños.
+Metales Preciosos: Activos de valor (oro y plata) que constituyen el objeto de las transacciones.
+Definición de Términos Básicos
+	•	Algoritmo: Conjunto ordenado y finito de instrucciones que permite ejecutar una tarea o resolver un problema específico. En este proyecto, se aplica a la ejecución de cálculos automatizados de intereses y fechas de vencimiento de préstamos.
+	•	Empeño: Contrato de garantía real que recae sobre un bien mueble (la prenda, en este caso, metales preciosos) para asegurar el cumplimiento de una obligación crediticia (préstamo prendario).
+	•	Gestión de Inventario: Proceso de control sistemático y documental de las existencias físicas de metales preciosos (oro y plata) que se encuentran bajo la custodia y administración de la empresa.
+	•	Interfaz: La capa visual y de interacción (prototipo web) que permite al usuario comunicarse con el sistema de información para ingresar datos, realizar consultas y obtener reportes.
+	•	Metales Preciosos: Activos de valor intrínseco elevado (oro y plata) que constituyen el objeto de las transacciones de compra y las garantías prendarias dentro de la empresa.
+	•	Préstamos Prendarios: Operación financiera donde se entrega una suma de dinero al cliente a cambio de un objeto de valor (prenda), la cual actúa como garantía del crédito.
+	•	Sistema de Información: Plataforma tecnológica integral diseñada para el procesamiento, almacenamiento y administración centralizada de los datos operativos y transaccionales, en sustitución de los archivos ofimáticos descentralizados.
+
+CAPÍTULO III
+MARCO METODOLÓGICO
+En este capítulo se describen los lineamientos metodológicos que rigen el desarrollo de la investigación. Se detallan los métodos, técnicas e instrumentos que permitirán recolectar y analizar la información necesaria para el diseño y desarrollo del sistema de información para la gestión de inventario y control de préstamos prendarios en la empresa Inversiones Más Por Tu Oro 17 C.A.
+Tipo y Diseño de la Investigación
+De acuerdo con la naturaleza del problema planteado y los objetivos establecidos en el Cuadro de Operacionalización de Variables, la investigación se define bajo las siguientes modalidades:
+Tipo de Investigación: Se clasifica como una investigación Descriptiva y Explicativa. Es descriptiva porque busca especificar las propiedades y características del flujo de datos actual en las hojas de Excel de la empresa. Este tipo de estudios buscan especificar las propiedades, características y los perfiles de personas, grupos o cualquier otro fenómeno que se someta a un análisis, recolectando datos sobre diversos conceptos. Es explicativa ya que se orienta a determinar las causas de la fragmentación de la información y cómo la automatización de procesos resolverá los riesgos operativos detectados.
+Diseño de la Investigación: El diseño es de Campo, debido a que los datos se recolectan directamente de la realidad en el lugar donde ocurren los hechos (las oficinas de Inversiones Más Por Tu Oro 17 C.A.), sin manipular de forma deliberada las variables. Según Cazares y otros (2000), la investigación de campo es aquella en que el mismo objeto de estudio sirve como fuente de información para el investigador, consistiendo en la observación directa y en vivo de cosas y comportamientos de personas. Adicionalmente, se apoya en un Proyecto Factible, al proponer una solución tecnológica funcional para resolver una necesidad institucional. Sustentándolo, la UPEL (2002) indica que esta modalidad consiste en elaborar una propuesta, un modelo o invento dirigido a constituir una solución a un problema o necesidad de tipo práctico en una institución.
+Población y Muestra
+Población: La población está constituida por el personal que labora y tiene relación directa con los procesos de registro, control de inventario y atención al cliente en la empresa Inversiones Más Por Tu Oro 17 C.A. En este caso, se identifica un total de 3 personas (Gerente, Administrador y personal de atención/caja).
+Muestra: Debido a que la población es pequeña y finita, se tomará una Muestra Censal, lo que implica que se trabajará con el 100% de los sujetos que integran la población para garantizar que los requerimientos del sistema recolectados sean exactos y representativos de la operatividad diaria.
+Técnicas de Recolección de Datos
+Para obtener la información necesaria para el diagnóstico y la determinación de requerimientos técnicos, se emplearán las siguientes técnicas:
+	•	Observación Directa: Permitirá visualizar de forma presencial cómo se manipulan actualmente los archivos de Excel y cómo es el proceso de recepción de metales preciosos (oro y plata).
+	•	Encuesta: Se aplicará al personal de la empresa para conocer de primera mano las fallas críticas, la percepción sobre la lentitud de los procesos y las necesidades de reporte que debe generar el sistema.
+Instrumentos de Recolección de Datos
+Los instrumentos que servirán de soporte para las técnicas mencionadas son:
+	•	Guía de Observación: Un formato estructurado donde se anotarán los procesos críticos identificados en el flujo de datos manual.
+	•	Cuestionario: Conformado por ítems de selección cerrada (dicotómicos), diseñados específicamente con base en los indicadores del cuadro de operacionalización de variables (Tiempo de respuesta, Seguridad, Algoritmos de cálculo, etc.).
+Validez de los Instrumentos y Confiabilidad
+Validez: Los instrumentos serán sometidos a una Validez de Contenido a través del juicio de tres (3) expertos (uno en metodología, uno en informática y uno en el área de Administración/Gerencia), quienes evaluarán la pertinencia, coherencia y claridad de los ítems con respecto a los objetivos de la investigación.
+Confiabilidad: Debido a que el cuestionario se aplicará a una muestra censal pequeña y está orientado al desarrollo de software de gestión, la confiabilidad se garantiza mediante la aplicación de una prueba piloto o el uso de la técnica de Kuder-Richardson (KR-20) si fuera necesario, asegurando que los resultados sean consistentes para el diseño de la base de datos y los módulos de registro.
+Técnica de Análisis de Datos
+Una vez recolectada la información, se procederá a utilizar las siguientes técnicas:
+	•	Análisis Cuantitativo: Los datos obtenidos mediante el cuestionario se tabularán y representarán mediante estadística descriptiva (frecuencias y porcentajes). Esto permitirá cuantificar la urgencia de los requerimientos funcionales.
+	•	Análisis Cualitativo: Se realizará una interpretación lógica de los procesos observados, facilitando el modelado del esquema de datos y los prototipos de interfaz web mencionados en la operacionalización de variables.
+	•	Triangulación de Información: Se contrastará la teoría de los sistemas de información con la realidad observada para fundamentar el desarrollo de los módulos de reporte y consulta automatizados.
+ANEXO A: INSTRUMENTO DE RECOLECCIÓN DE DATOS
+
+República Bolivariana de Venezuela Colegio Universitario de Administración y Mercadeo CUAM Extensión: Caracas
+Caracas, Mayo de 2026
+Ciudadano(a)
+Presente.-
+En virtud de llevar a cabo la presente investigación sobre SISTEMA DE INFORMACIÓN PARA LA GESTIÓN DE INVENTARIO Y CONTROL DE PRÉSTAMOS PRENDARIOS EN LA EMPRESA INVERSIONES MÁS POR TU ORO 17 C.A., nos dirigimos a usted en la oportunidad de solicitarle su valiosa colaboración para que proporcione información relevante para el estudio antes mencionado.
+Por favor conteste con sinceridad las siguientes preguntas. La información es de carácter estrictamente confidencial y así será manejada.
+Cabe destacar que el presente cuestionario está compuesto por ocho (8) ítems, y las opciones de sus respuestas son de carácter dicotómico, situadas de la siguiente manera: Sí y No. Deberá marcar con una equis (X) la opción que considere correcta según su criterio y experiencia en el área.
+Agradeciendo de antemano su colaboración, queda de usted.
+Atentamente,
+Br. Lenin Alvarado
+C.I: 30.260.365
+TÍTULO: Sistema de Información para la Gestión de Inventario y Control de Préstamos Prendarios en la Empresa Inversiones Más Por Tu Oro 17 C.A.
+I. DATOS SOCIODEMOGRÁFICOS
+	•	Cargo que ocupa: [ ] Gerencia [ ] Administrativo [ ] Operativo/Caja
+	•	Años de experiencia: [ ] Menos de 1 año [ ] 1 a 3 años [ ] Más de 3 años
+	•	Nivel Educativo: [ ] Bachiller [ ] TSU [ ] Universitario
+II. CUESTIONARIO
+No.
+Indicador
+Pregunta
+Sí
+No
+1
+Registro manual
+¿Considera que el estado actual de los archivos de Excel permite la integración y cruce eficiente de los datos de la empresa?
+
+
+2
+Tiempo respuesta
+¿El tiempo de respuesta manual afecta la productividad?
+
+
+3
+Algoritmos cálculo
+¿Se han registrado discrepancias o inconsistencias en los cálculos de intereses y fechas de vencimiento bajo la modalidad manual?
+
+
+4
+Seguridad
+¿Dispone la empresa de mecanismos automatizados de respaldo para proteger la información frente a fallos del sistema o sobreescrituras?
+
+
+5
+Esquema de BD
+¿Es fundamental un sistema centralizado para la trazabilidad?
+
+
+6
+Prototipo visual
+¿Deben las interfaces ser intuitivas para facilitar el uso?
+
+
+7
+Reportes generados
+¿Requiere reportes administrativos automáticos para gerencia?
+
+
+8
+Consultas exitosas
+¿Es la automatización de consultas esencial para el flujo de trabajo?
+
+
+
+2. ANEXO B: VALIDEZ DEL INSTRUMENTO (JUICIO DE EXPERTOS)
+OBJETIVOS DE LA INVESTIGACIÓN
+
+OBJETIVO GENERAL
+
+Desarrollar un Sistema de Información para la Gestión de Inventario y Control de Préstamos Prendarios en la empresa Inversiones Más Por Tu Oro 17 C.A..
+OBJETIVOS ESPECÍFICOS
+
+1. Diagnosticar el flujo actual de los datos registrados en hojas de Excel para identificar las fallas críticas en el control de préstamos y compras de metales.
+2. Determinar los requerimientos funcionales y técnicos del sistema que permitan la automatización precisa de los cálculos de empeño y transacciones.
+3. Diseñar la arquitectura de la base de datos y las interfaces gráficas de usuario para centralizar la información operativa de la empresa.
+4. Desarrollar los módulos de registro, consulta y generación de reportes automatizados para optimizar el rendimiento administrativo y la seguridad de los datos.
+CUADRO DE OPERACIONALIZACIÓN DE VARIABLES
+
+
+
+Objetivos Específicos
+Variables
+Definición Conceptual
+Definición Operacional
+Dimensión
+Indicadores
+Diseño y Tipo de Investigación
+Ítems
+Diagnosticar el flujo actual de los datos en hojas de Excel.
+Gestión Manual de Datos
+Proceso actual de registro basado en herramientas ofimáticas descentralizadas.
+Análisis de la fragmentación de archivos Excel en la empresa.
+Operativa
+Registro manual, Tiempo de respuesta.
+Descriptiva, Explicativa y de Campo.
+1, 2
+Determinar requerimientos funcionales para la automatización.
+Requerimientos Técnicos
+Necesidades del software para ejecutar cálculos de empeño y compras.
+Especificación de módulos para el sistema de préstamos y caja.
+Técnica
+Algoritmos de cálculo, Seguridad.
+Descriptiva, Explicativa y de Campo.
+3, 4
+Diseñar la arquitectura de base de datos e interfaces.
+Diseño del Sistema
+Estructura lógica y visual para centralizar la información de metales.
+Modelado del esquema de datos y prototipos de interfaz web.
+Informática
+Esquema de BD, Prototipo visual.
+Descriptiva, Explicativa y de Campo.
+5, 6
+Desarrollar módulos de registro y reportes automatizados.
+Implementación de Software
+Construcción de la herramienta final para la optimización administrativa.
+Desarrollo de la aplicación en Vercel y el sistema de empeños.
+Administrativa
+Reportes generados, Consultas exitosas.
+Descriptiva, Explicativa y de Campo.
+7, 8
+
+Fuente: Alvarado, L. (2026).
+CUADRO TEÓRICO (INCLUYENDO LA ESCALA DE VALORACIÓN)
+
+
+
+Objetivos Específicos
+Variables
+Definición Conceptual
+Definición Operacional
+Dimensión
+Indicadores
+Diseño y Tipo de Investigación
+Ítems
+Escala de Alternativas
+Diagnosticar el flujo actual de los datos en hojas de Excel.
+Gestión Manual de Datos
+Proceso actual de registro basado en herramientas ofimáticas descentralizadas.
+Análisis de la fragmentación de archivos Excel en la empresa.
+Operativa
+Registro manual, Tiempo de respuesta.
+Descriptiva, Explicativa y de Campo.
+1, 2
+Sí / No
+Determinar requerimientos funcionales para la automatización.
+Requerimientos Técnicos
+Necesidades del software para ejecutar cálculos de empeño y compras.
+Especificación de módulos para el sistema de préstamos y caja.
+Técnica
+Algoritmos de cálculo, Seguridad.
+Descriptiva, Explicativa y de Campo.
+3, 4
+Sí / No
+Diseñar la arquitectura de base de datos e interfaces.
+Diseño del Sistema
+Estructura lógica y visual para centralizar la información de metales.
+Modelado del esquema de datos y prototipos de interfaz web.
+Informática
+Esquema de BD, Prototipo visual.
+Descriptiva, Explicativa y de Campo.
+5, 6
+Sí / No
+Desarrollar módulos de registro y reportes automatizados.
+Implementación de Software
+Construcción de la herramienta final para la optimización administrativa.
+Desarrollo de la aplicación en Vercel y el sistema de empeños.
+Administrativa
+Reportes generados, Consultas exitosas.
+Descriptiva, Explicativa y de Campo.
+7, 8
+Sí / No
+
+Fuente: Alvarado, L. (2026).
+
+
+
+
+
+
+República Bolivariana de Venezuela Colegio Universitario de Administración y Mercadeo CUAM Extensión: Caracas
+Caracas, Mayo de 2026
+Ciudadano(a)
+Presente.-
+
+En virtud de llevar a cabo la presente investigación sobre SISTEMA DE INFORMACIÓN PARA LA GESTIÓN DE INVENTARIO Y CONTROL DE PRÉSTAMOS PRENDARIOS EN LA EMPRESA INVERSIONES MÁS POR TU ORO 17 C.A., requisito para optar al título de Técnico Superior Universitario en Informática, nos dirigimos a usted en la oportunidad de solicitarle su valiosa colaboración para la validación del instrumento de recolección de datos.
+Los criterios a evaluar son: claridad, precisión, pertinencia y coherencia en la redacción de cada uno de los ocho (8) ítems que conforman el cuestionario.
+Agradeciendo de antemano su colaboración, queda de usted.
+Atentamente,
+Br. Lenin Alvarado
+C.I: 30.260.365
+
+
+
+
+
+República Bolivariana de Venezuela Colegio Universitario de Administración y Mercadeo CUAM Extensión: Caracas
+FICHA TÉCNICA DEL VALIDADOR
+
+A través de la presente herramienta se proyecta validar el instrumento que se utilizará para el trabajo de investigación que lleva por título SISTEMA DE INFORMACIÓN PARA LA GESTIÓN DE INVENTARIO Y CONTROL DE PRÉSTAMOS PRENDARIOS EN LA EMPRESA INVERSIONES MÁS POR TU ORO 17 C.A., requisito para optar al título de Técnico Superior Universitario en Informática.
+
+DATOS DEL EXPERTO:
+NOMBRE DEL EXPERTO: ____________________________________________________________________
+TÍTULO OBTENIDO: ____________________________________________________________________
+MENCIÓN: ____________________________________________________________________
+AÑO DE EGRESO: ______________ EGRESADO DE LA UNIVERSIDAD: _________________________
+LUGAR DE TRABAJO: ____________________________________________________________________
+CARGO QUE DESEMPEÑA: ____________________________________________________________________
+
+
+
+
+
+República Bolivariana de Venezuela Colegio Universitario de Administración y Mercadeo CUAM Extensión: Caracas
+MATRIZ DE VALIDACIÓN
+Lugar: _____________________ Fecha: ____________________
+Nombres y Apellidos: ____________________________________________________
+Cédula: _______________________ Título Universitario: _______________________ Postgrado en: _________________
+CRITERIO: 1) Claridad y Redacción 2) Precisión 3) Pertinencia 4) Coherencia
+ESCALA: A) Excelente B) Bueno C) Regular D) Deficiente
+Ítems
+CLARIDAD (A,B,C,D)
+PRECISIÓN (A,B,C,D)
+PERTINENCIA (A,B,C,D)
+COHERENCIA (A,B,C,D)
+OBSERVACIONES
+1
+
+
+
+
+
+2
+
+
+
+
+
+3
+
+
+
+
+
+4
+
+
+
+
+
+5
+
+
+
+
+
+6
+
+
+
+
+
+7
+
+
+
+
+
+8
+
+
+
+
+
+
+Firma del Validador: ______________________________
+Sello (Opcional):
+Ítem
+Dejar
+Modificar
+Eliminar
+Observaciones
+1 a 8
+
+
+
+
+ANEXO C: CONFIABILIDAD DEL INSTRUMENTO
+
+CÁLCULO DE CONFIABILIDAD KUDER RICHARDSON (KR-20)
+
+Se aplicó una prueba piloto a cinco (5) sujetos con características similares a la muestra definitiva.
+La elección del coeficiente Kuder-Richardson (KR-20) es la técnicamente adecuada debido a que el instrumento de recolección de datos utiliza reactivos cerrados con una escala de respuesta puramente dicotómica (Sí/No), lo que lo diferencia de otras pruebas de consistencia interna como el Alfa de Cronbach, que se emplea para escalas tipo Likert.
+
+Fórmula Aplicada:
+KR = [k / (k-1)] * [1 - (Σ p*q / Vt)]
+k = Número de ítems (8).
+Σ p * q = Sumatoria de varianzas individuales (1.92).
+Vt = Varianza Total de los puntajes (8.00).
+Tabulación de los Datos (Matriz Piloto)
+
+Sujeto
+Ítem 1
+Ítem 2
+Ítem 3
+Ítem 4
+Ítem 5
+Ítem 6
+Ítem 7
+Ítem 8
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+1
+1
+0
+0
+1
+1
+0
+0
+3
+1
+0
+1
+0
+1
+0
+1
+0
+4
+0
+1
+0
+1
+0
+1
+0
+1
+
+
+
+
+
+
+
+
+
+5
+0
+0
+0
+0
+0
+0
+0
+0
+
+TABULACIÓN DE FRECUENCIAS Y PORCENTAJES (PRUEBA PILOTO)
+Ítems 1, 2, 5 y 6
+f (Frecuencia): S (Sí): 3, N (No): 2, Total: 5
+% (Porcentaje): S (Sí): 60%, N (No): 40%, Total: 100%
+Ítems 3, 4, 7 y 8
+f (Frecuencia): S (Sí): 2, N (No): 3, Total: 5
+% (Porcentaje): S (Sí): 40%, N (No): 60%, Total: 100%
+Desarrollo:
+KR20 = (8/7) * [1 - (1.92 / 8.00)] = 1.14 * 0.76 = 0.87
+Interpretación:
+El coeficiente arrojó un valor de 0.87, el cual se ubica en el rango de (0.81 a 1.00), indicando una confiabilidad "Muy alta". Por lo tanto, el instrumento es altamente consistente y preciso para su aplicación formal.
+
+
+
+
+
