@@ -31,3 +31,13 @@ Desarrollar y consolidar el Capítulo VI ("La Propuesta") conforme al modelo ofi
 - [x] **TASK-05**: Auditoría y verificación final del documento modificado (inspección de párrafos, tablas, imágenes conservadas y cálculo de páginas).
   - *Ruta*: Inline
   - *Verificación*: Inspección con python-docx confirmando 659 párrafos, 15 tablas y 12 imágenes del Anexo B intactas.
+
+## Evidencia de Entrega
+- **Rama**: `feat/capitulo-vi-propuesta`
+- **Commit**: `469ed85` (`feat(teg): desarrollar Capitulo VI de propuesta, fases metodologicas y listas preliminares`)
+- **Archivos actualizados**:
+  - `/Users/leninsio/Downloads/trabajo de grados/proyecto_de_grado/trabajo_de_grado.docx`
+  - `proyecto_de_grado/final.docx`
+  - `/Users/leninsio/Downloads/trabajo de grados/FICHA ESTUDIANTIL  PARA INSRIBIR TRABAJO ESPECIAL DE GRADO (LLENADA).docx`
+  - `proyecto_de_grado/FICHA_ESTUDIANTIL_INSCRIPCION_TEG.docx`
+
