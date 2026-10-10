@@ -34,3 +34,14 @@ Este directorio centraliza las normativas metodológicas, manuales de estilo y l
   Guía didáctica y rúbricas de la Unidad I de Seminario de Trabajo de Grado II.
 * **[SEMINARIO_II_UNIDAD_III.pdf](file://./SEMINARIO_II_UNIDAD_III.pdf):** 
   Guía didáctica para la estructuración y culminación del informe final de grado.
+
+---
+
+## 4. Guías de Pasantías (PAS-600)
+
+* **[PASANTIAS_UNIDAD_I.pdf](file://./PASANTIAS_UNIDAD_I.pdf):** 
+  Guía oficial de la Unidad Curricular Pasantías (PAS-600, Semestre VI), lineamientos iniciales y normativas.
+* **[PASANTIAS_UNIDAD_II.pdf](file://./PASANTIAS_UNIDAD_II.pdf):** 
+  Desarrollo de las actividades contempladas en el Plan de Pasantía e imagen profesional.
+* **[PASANTIAS_UNIDAD_III.pdf](file://./PASANTIAS_UNIDAD_III.pdf):** 
+  Elaboración, estructura y presentación formal del Informe de Pasantía.
